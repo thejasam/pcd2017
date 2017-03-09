@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<math.h>
+float convert radians(float d)
+{
+float rad;
+rad=(3.1412/180)*d;
+returnd;
+}
+float compute sin(float x)
+{
+float term,sum.diff,prev;
+int=i;
+term=sum=diff=x;
+for(i=3,diff>0.000001,i=i+2)
+{
+prev=term;
+term=(-term*x*x)/(i*(i-1));
+diff=fabs(prev-term);
+sum=sum+term;
+}
+returnsum;
+}
+int main()
+[
+float degree,rad;
+printf("enter the degree");
+scanf("%f",&degree);
+rad=convert radians;
+sum=compute sin(x);
+printf("sin(%f)=%f",degree,sum);
+}
