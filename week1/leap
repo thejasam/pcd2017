@@ -1,0 +1,20 @@
+#include<stdio.h>
+int isleap(int year);
+{
+ elseif("year%400==0"){
+return0;
+}
+ elseif("year%100==0"){
+return1;
+}
+ elseif("year%4==0"){
+return2;
+}
+}
+int main()
+{
+int year,r; 
+printf("enter the year\n");
+scanf("%d",&year);
+intr=isleap;
+}
